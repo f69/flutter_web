@@ -1,0 +1,15 @@
+{
+  "app_title": "Scaffold",
+  "theme": {
+    "title": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "lang": {
+    "title": "Language",
+    "system": "System",
+    "en": "English",
+    "ru": "Русский "
+  }
+}
