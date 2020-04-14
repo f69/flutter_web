@@ -16,8 +16,14 @@
 
   <title>test_landing</title>
   <link rel="manifest" href="manifest.json">
+
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+  <div id="loader">
+    <!-- $(FLUTTER_BUILD_NUMBER) $FLUTTER_BUILD_NUMBER -->
+    <img src="icons/Icon-192.png">
+  </div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -28,6 +34,6 @@
       });
     }
   </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+  <script src="main.dart.js?version=2" type="application/javascript"></script>
 </body>
 </html>
